@@ -32,15 +32,21 @@ Cây thư mục của source code
 
 # 3. Các bước chạy code
 
-. Bước 1. Mở Thư mục Code. Chạy lệnh 
+. Bước 1. Clone project về
+
+```
+    https://github.com/Sagar2k1/Diabetes-Prediction-With-Imbalance-Learning.git
+```
+
+. Bước 2. Mở Thư mục Code. Chạy lệnh sau để chạy set up môi trường
 
 ```
     ! pip install -r requirements.txt
 ```
 
-để chạy set up môi trường
 
-. Bước 2. Ở từng folder d1, d2, d6 chứa 3 file .ipynb
+
+. Bước 3. Ở từng folder d1, d2, d6 chứa 3 file .ipynb
 
 ```
     .d6
@@ -49,11 +55,11 @@ Cây thư mục của source code
         Modelling and Testing.ipynb
 ```
 
-. a chạy file Data Cleaning.ipynb. Kết quả được trả tại folder /Data/Tên tập dữ liệu/*_cleaned.csv
+    . a chạy file Data Cleaning.ipynb. Kết quả được trả tại folder /Data/Tên tập dữ liệu/*_cleaned.csv
 
-. b chạy file Data Engineering.ipynb. Kết quả được trả tại folder /Data/Tên tập dữ liệu/
+    . b chạy file Data Engineering.ipynb. Kết quả được trả tại folder /Data/Tên tập dữ liệu/
 
-    . Với Mỗi tập cân bằng kết quả được lưu trong /Data/Tên tập dữ liệu/Balanced Data
+        . Với Mỗi tập cân bằng kết quả được lưu trong /Data/Tên tập dữ liệu/Balanced Data
 
-. c chạy file Modelling and Testing.ipynb để huấn luyện mô hình. Kết quả được trả tại folder /Result/Tên tập dữ liệu
+    . c chạy file Modelling and Testing.ipynb để huấn luyện mô hình. Kết quả được trả tại folder /Result/Tên tập dữ liệu
 
